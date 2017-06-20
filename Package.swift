@@ -25,7 +25,7 @@ let package = Package(
 	targets: [],
 	dependencies: [
 		.Package(url: "https://github.com/PerfectlySoft/PerfectLib.git", majorVersion: 2),
-		.Package(url: "https://github.com/PerfectlySoft/Perfect-Net.git", majorVersion: 2),
+		.Package(url: "https://github.com/moosefactory/Perfect-Net.git", majorVersion: 2),
 		.Package(url: "https://github.com/PerfectlySoft/Perfect-LinuxBridge.git", majorVersion: 2)
 	],
 	exclude: []
@@ -36,7 +36,7 @@ let package = Package(
 	targets: [],
 	dependencies: [
 		.Package(url: "https://github.com/PerfectlySoft/PerfectLib.git", majorVersion: 2),
-		.Package(url: "https://github.com/PerfectlySoft/Perfect-Net.git", majorVersion: 2)
+		.Package(url: "https://github.com/moosefactory/Perfect-Net.git", majorVersion: 2)
 	],
 	exclude: []
 )
